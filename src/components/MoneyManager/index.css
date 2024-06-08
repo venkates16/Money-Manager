@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.container {
+  padding: 20px;
+}
+
+.detailes {
+  background: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  background-size: cover;
+}
+.highlity {
+  color: blue;
+}
+
+.MoneyDetails {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  margin-top: 20px;
+  background-color: #83b4ff;
+  padding: 10px;
+  width: 90px;
+  cursor: pointer;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+label {
+  margin-bottom: 12px;
+}
+select {
+  height: 40px;
+  background-color: #83b4ff;
+  outline: none;
+  border: thin solid blue;
+}
+
+.formDetailes {
+  margin-top: 20px;
+  border: 2px solid #e88d67;
+  border-radius: 12px;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  border: 2px solid #e88d67;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+li {
+  height: 50px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid #91ce27;
+}
+
+@media screen and (min-width: 768px) {
+  .maxDevices {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .formDetailes {
+    margin-top: 20px;
+    border: 2px solid #e88d67;
+    border-radius: 12px;
+    flex-grow: 1;
+    padding: 20px;
+    width: 300px;
+    margin-right: 12px;
+  }
+  ul {
+    border-radius: 12px;
+    margin-top: 20px;
+    list-style: none;
+    border: 2px solid #e88d67;
+    width: 500px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.bin {
+  height: 40px;
+  width: 30px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 12px;
+}

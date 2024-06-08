@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.moneyCard {
+  background: #81a263;
+  padding: 12px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 12px;
+  width: 400px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.moneyCard_1 {
+  border-radius: 12px;
+  background: #b3e2a7;
+  padding: 12px;
+  margin-top: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+.moneyCard_2 {
+  border-radius: 12px;
+  width: 400px;
+  background: #ef9c66;
+  padding: 12px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
